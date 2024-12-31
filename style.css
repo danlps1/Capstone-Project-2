@@ -1,0 +1,132 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    background-color: #f9f6e6cc;
+}
+
+/* titile styles */
+.title {
+    font-family: "Sixtyfour", serif;
+    font-size: 2.5rem;
+}   
+
+#deve {
+    font-family: "Sixtyfour", serif;
+}
+
+.outherTitle {
+    font-family: "Sixtyfour", serif;;
+    color: black;
+    font-size: 30px;
+}
+
+/* main styles */
+#hero-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background: url(https://wallpapers.com/images/hd/astronaut-bonfire-pixel-art-6jm0bumas1tmb7hc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    color: white;
+}
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#profile {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#resume {
+    margin-top: 100px;
+}
+
+/* skills styles */
+#skills {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.skills-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: justify;
+    width: 50%;
+}
+
+.skill img {
+    padding: 10px;
+    width: 250px;
+    height: 220px;
+    float: left;
+
+}
+
+/* about me styles */
+#aboutme {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container-about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    padding: 10px;
+    color: #9f5255;
+    font-size: 25px;
+    border: 2px solid #9f5255 ;
+    border-radius: 7px;
+    height: 50px;
+}
+
+
+/* footer style */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#9f5255;
+    height: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content:center;
+    list-style: none;
+    padding: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
