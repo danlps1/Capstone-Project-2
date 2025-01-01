@@ -1,5 +1,6 @@
-<h1 align="center">Capstone Project 2</h1>
-<div align="center">
+<h1 align="left">Capstone Project 2</h1>
+
+<div align="left">
   <strong> Website Pessoal </strong>
 </div>
 <p>
